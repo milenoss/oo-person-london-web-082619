@@ -17,6 +17,7 @@ class Person
       happiness = 0 
      end 
      happiness
+   end
 end
 
 
