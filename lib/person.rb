@@ -15,8 +15,9 @@ class Person
       happiness = 10
       elsif happiness > 10 
       happiness = 0 
+       else 
+      happiness 
      end 
-     happiness
    end
 end
 
