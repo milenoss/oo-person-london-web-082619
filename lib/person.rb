@@ -8,9 +8,15 @@ class Person
     @name = name 
     @bank_account = 25 
     @happiness = 8
-    
-    
   end
+  
+  def happiness 
+    if happiness < 10 
+      happiness = 10
+      elsif happiness > 10 
+      happiness = 0 
+     end 
+     happiness
 end
 
 
